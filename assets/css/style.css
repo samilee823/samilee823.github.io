@@ -1,0 +1,191 @@
+/* general  */
+body {
+    margin:0px; 
+}
+.background{
+    background-image: url(../images/bush.png);
+    padding: 20px 0 60px 0;
+    overflow: auto; 
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto 0 auto; 
+    max-width: 960px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* header  */
+header{
+    background-color: #ffffff;
+    padding:31px;
+    color:#777777;
+    clear:both;
+    position: relative; 
+    width: auto;
+}
+.name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float:left;
+    padding: 20px; 
+    text-align: center;
+    position: relative; 
+    bottom: -18; 
+    left: 4%; 
+}
+
+nav{
+    margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#b6b6b6; 
+    position: relative; 
+    right: 6%; 
+    text-align: right;
+    padding-top: 18px; 
+}
+
+a:link {
+    color: #666666; 
+    text-decoration: none;
+}
+
+a:active {
+    color: #666666; 
+}
+a:visited {
+    color: #666666; 
+}
+a:hover{
+    color: #4aaaa5; 
+}
+
+/* paragraph formatting */
+h1{
+    font-size: 24px;
+    margin: 0px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1.topic{
+    color: #4aaaa5;
+    margin: 20px;
+    padding-top: 20px;
+    clear:both;
+}
+
+hr {
+    width: 96%;
+}
+/* footer  */
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    padding: 5px;
+    color: #ffffff;
+    border-top: 8px solid #4AAAA5;
+}
+
+/* About Me */
+
+#bio-image {
+    float:left; 
+    width:200px;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+.portfolio-info {
+   line-height: 2;
+   padding: 20px;
+}
+
+/* Contact */
+
+input {
+    width: 95%;
+    margin-left: 20px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+textarea {
+    width: 95%;
+    border: .5px solid #777777;
+    margin-left: 20px;
+}
+
+button {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    margin:20px;
+    font-size: 18px;
+    height: 30px; 
+    width: 80px; 
+}
+
+/* Portfolio */
+img {
+    display: block;
+    height:200px; 
+    width:64%; 
+    padding: 20px;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    width: 57%;
+    padding:10px; 
+    left: 20px; 
+  }
+
+.hangman{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+.rpg-game{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+
+.trivia-game{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+    clear:both; 
+}
+
+.rutgers{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+.rock-paper{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+    clear:both;
+}
